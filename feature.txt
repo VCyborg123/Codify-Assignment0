@@ -1,1 +1,2 @@
+This is a DIFFERENT change from conflict2!
 This is my first Git feature branch!
