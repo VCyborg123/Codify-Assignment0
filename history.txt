@@ -315,3 +315,303 @@ This is the first conflict branch.
  1081  grep -n 'Hello Bash!' ~/.zsh_history
  1082  echo "Hello Bash\nfc -W\nhistory 1 | tail -n 300 >> history.txt\ngrep 'echo "Hello Bash\!"' history.txt
  1083  echo Hello Bash!
+  797  python3 -m pytest -k change
+  798  python3 -m pytest -k change
+  799  python3 -m pytest -k change
+  800  python3 -m pytest -k change
+  801  python3 -m pytest -k change
+  802  python3 -m pytest -k change
+  803  python3 -m pytest -k without
+  804  python3 -m pytest -k without
+  805  python3 -m pytest -k without
+  806  python3 -m pytest -k print_every_other
+  807  python3 -m pytest -k print_every_other
+  808  python3 -m pytest -k print_every_other
+  809  python3 -m pytest -k print_every_other
+  810  python3 -m pytest -k print_every_other
+  811  python3 -m pytest -k print_every_other
+  812  python3 -m pytest -k print_every_other
+  813  python3 -m pytest -k print_every_other
+  814  python3 -m pytest -k store_digits
+  815  python3 -m pytest -k store_digits
+  816  python3 -m pytest -k store_digits
+  817  python3 -m pytest -k store_digits
+  818  python3 -m pytest -k store_digits
+  819  python3 -m pytest -k store_digits
+  820  python3 -m pytest -k store_digits
+  821  python3 -m pytest -k store_digits
+  822  python3 -m pytest -k store_digits
+  823  python3 -m pytest -k q08 --unlock
+  824  python3 -m pytest -k q08
+  825  python3 -m pytest -k q08
+  826  python3 -m pytest -k q08
+  827  python3 -m pytest -k q08
+  828  python3 -m pytest -k q09 --unlock
+  829  python3 -m pytest -k q09
+  830  python3 -m pytest -k q09
+  831  python3 -m pytest -k q09
+  832  python3 -m pytest -k q09
+  833  python3 -m pytest -k q09
+  834  python3 -m pytest -k q09
+  835  python3 -m pytest -k q10 --unlock
+  836  python3 -m pytest -k q10
+  837  python3 -m pytest -k q10
+  838  python3 -m pytest -k q10
+  839  python3 -m pytest -k q10
+  840  python3 -m pytest -k q10
+  841  python3 -m pytest -k q10
+  842  python3 -m pytest -k q10
+  843  python3 -m pytest -k q10
+  844  python3 -m pytest -k q10
+  845  python3 -m pytest -k q10
+  846  python3 -m pytest -k q10
+  847  python3 -m pytest -k q10
+  848  python3 -m pytest -k q10
+  849  python3 -m pytest -k q10
+  850  python3 -m pytest -k q10
+  851  python3 -m pytest -k q10
+  852  python3 -m pytest -k q10
+  853  python3 -m pytest -k q10
+  854  python3 -m pytest -k q10
+  855  python3 -m pytest
+  856  python3 -m pytest --score
+  857  python3 -m pytest
+  858  python3 -m pytest
+  859  python3 -m pytest --score
+  860  python3 -m pytest -k q07 --unlock
+  861  python3 -m pytest -k q07
+  862  python3 -m pytest --score
+  863  python3 -m pytest --score
+  864  python3 -m pytest
+  865  /usr/local/bin/python3
+  866  python3 -m pytest -k sprout_leaves
+  867  def helper(index,t,leaves)\n        if is_leaf(t):\n          return Tree(leaves[index])\n    \n    return helper(0,t,leaves)\n
+  868  python3 -m pytest -k sprout_leaves
+  869  python3 -m pytest -k sprout_leaves
+  870  python3 -m pytest -k sprout_leaves
+  871  python3 -m pytest -k sprout_leaves
+  872  python3 -m pytest -k sprout_leaves
+  873  python3 -m pytest -k sprout_leaves
+  874  python3 -m pytest -k sprout_leaves
+  875  python3 -m pytest -k sprout_leaves
+  876  python3 -m pytest -k sprout_leaves
+  877  python3 -m pytest -k sprout_leaves
+  878  python3 -m pytest -k sprout_leaves
+  879  python3 -m pytest -k sprout_leaves
+  880  python3 -m pytest -k sprout_leaves
+  881  python3 -m pytest -k sprout_leaves
+  882  python3 -m pytest -k sprout_leaves
+  883  python3 -m pytest -k sprout_leaves
+  884  python3 -m pytest -k sprout_leaves
+  885  python3 -m pytest -k sprout_leaves
+  886  python3 -m pytest -k sprout_leaves
+  887  python3 -m pytest -k sprout_leaves
+  888  python3 -m pytest -k sprout_leaves
+  889  python3 -m pytest -k sprout_leaves
+  890  python3 -m pytest -k sprout_leaves
+  891  python3 -m pytest -k pathsum
+  892  python3 -m pytest -k pathsum
+  893  python3 -m pytest -k pathsum
+  894  python3 -m pytest -k pathsum
+  895  python3 -m pytest -k pathsum
+  896  python3 -m pytest -k pathsum
+  897  python3 -m pytest -k prune_leaves
+  898  python3 -m pytest -k prune_leaves
+  899  python3 -m pytest -k prune_leaves
+  900  python3 -m pytest -k prune_leaves
+  901  python3 -m pytest -k prune_leaves
+  902  python3 -m pytest -k prune_leaves
+  903  python3 -m pytest -k prune_leaves
+  904  python3 -m pytest -k prune_leaves
+  905  python3 -m pytest -k prune_leaves
+  906  python3 -m pytest -k prune_leaves
+  907  python3 -m pytest -k prune_leaves
+  908  python3 -m pytest -k prune_leaves
+  909  python3 -m pytest -k prune_leaves
+  910  python3 -m pytest -k prune_leaves
+  911  python3 -m pytest -k total_mass
+  912  python3 -m pytest -k balanced
+  913  python3 -m pytest -k balanced
+  914  python3 -m pytest -k balanced
+  915  python3 -m pytest -k balanced
+  916  python3 -m pytest -k balanced
+  917  python3 -m pytest -k interleave
+  918  python3 -m pytest -k interleave
+  919  python3 -m pytest -k interleave
+  920  python3 -m pytest -k interleave
+  921  python3 -m pytest -k interleave
+  922  python3 -m pytest -k interleave
+  923  python3 -m pytest -k knapsack
+  924  python3 -m pytest -k knapsack
+  925  python3 -m pytest -k knapsack
+  926  python3 -m pytest -k knapsack
+  927  python3 -m pytest -k knapsack
+  928  python3 -m pytest -k berry_finder
+  929  python3 -m pytest -k berry_finder
+  930  python3 -m pytest -k berry_finder
+  931  python3 -m pytest -k berry_finder
+  932  python3 -m pytest -k max_path_sum
+  933  python3 -m pytest -k max_path_sum
+  934  python3 -m pytest -k max_path_sum
+  935  python3 -m pytest -k max_path_sum
+  936  python3 -m pytest -k max_path_sum
+  937  /usr/local/bin/python3
+  938  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  939  brew -v
+  940  echo "hello bash\n
+  941  pwd
+  942  echo "hello bash"
+  943  cd ~/Desktop
+  944  mkdir codify-61d
+  945  cd codify-61d
+  946  mkdir bash-assignment
+  947  cd bash-assignment
+  948  touch README.md
+  949  touch meaning-of-life.txt
+  950  ls
+  951  mv meaning-of-life.txt history.txt
+  952  README.md  history.txt
+  953  ls
+  954  code .
+  955  code .
+  956  python3 -m pytest -k list_mutation_wwpd --unlock
+  957  python3 -m pytest -k list_mutation_wwpd --unlock
+  958  python3 -m pytest -k insert_items
+  959  python3 -m pytest -k insert_items
+  960  python3 -m pytest -k insert_items
+  961  python3 -m pytest -k insert_items
+  962  python3 -m pytest -k insert_items
+  963  python3 -m pytest -k insert_items
+  964  python3 -m pytest -k insert_items
+  965  python3 -m pytest -k insert_items
+  966  python3 -m pytest -k insert_items
+  967  python3 -m pytest -k insert_items
+  968  python3 -m pytest -k insert_items
+  969  python3 -m pytest -k insert_items
+  970  python3 -m pytest -k insert_items
+  971  python3 -m pytest -k insert_items
+  972  python3 -m pytest -k insert_items
+  973  python3 -m pytest -k insert_items
+  974  python3 -m pytest -k insert_items
+  975  python3 -m pytest -k insert_items
+  976  python3 -m pytest -k group_by
+  977  python3 -m pytest -k group_by
+  978  pwd
+  979  git init
+  980  git status
+  981  git init
+  982  git status
+  983  git add .
+  984  git status
+  985  git commit -m "Initial commit"
+  986  \tgit switch -c new-feature
+  987  git branch
+  988  touch feature.txt
+  989  git add feature.txt
+  990  git commit -m "Add feature file"
+  991  python3 -m pytest -k Mint
+  992  python3 -m pytest -k Mint
+  993  python3 -m pytest -k Mint
+  994  python3 -m pytest -k VendingMachine
+  995  python3 -m pytest -k VendingMachine
+  996  python3 -m pytest -k VendingMachine
+  997  python3 -m pytest -k VendingMachine
+  998  python3 -m pytest -k VendingMachine
+  999  bun install
+ 1000  code .
+ 1001  python3 -m pytest -k deep_map
+ 1002  python3 -m pytest -k deep_map
+ 1003  python3 -m pytest -k deep_map
+ 1004  python3 -m pytest -k deep_map
+ 1005  python3 -m pytest -k deep_map
+ 1006  python3 -m pytest -k deep_map
+ 1007  python3 -m pytest -k deep_map
+ 1008  i+=1
+ 1009  python3 -m pytest -k deep_map
+ 1010  python3 -m pytest -k deep_map
+ 1011  python3 -m pytest -k adder
+ 1012  python3 -m pytest -k adder
+ 1013  python3 -m pytest -k adder
+ 1014  python3 -m pytest -k adder
+ 1015  python3 -m pytest -k adder
+ 1016  python3 -m pytest -k adder
+ 1017  python3 -m pytest -k adder
+ 1018  python3 -m pytest -k adder
+ 1019  python3 -m pytest -k adder
+ 1020  python3 -m pytest -k adder
+ 1021  python3 -m pytest -k adder
+ 1022  x[i] = x[i] + y[j]
+ 1023  python3 -m pytest -k adder
+ 1024  python3 -m pytest -k adder
+ 1025  python3 -m pytest -k adder
+ 1026  python3 -m pytest -k adder
+ 1027  python3 -m pytest -k adder
+ 1028  python3 -m pytest -k adder
+ 1029  python3 -m pytest -k adder
+ 1030  python3 -m pytest -k adder
+ 1031  python3 -m pytest -k adder
+ 1032  python3 -m pytest -k adder
+ 1033  python3 -m pytest -k adder
+ 1034  python3 -m pytest -k adder
+ 1035  python3 -m pytest -k adder
+ 1036  python3 -m pytest -k all_odd_sums
+ 1037  python3 -m pytest -k all_odd_sums
+ 1038  python3 -m pytest -k all_odd_sums
+ 1039  python3 -m pytest -k q01 --unlock
+ 1040  python3 -m pytest -k q01
+ 1041  python3 -m pytest -k q01
+ 1042  python3 -m pytest -k q01
+ 1043  python3 -m pytest -k q02 --unlock
+ 1044  python3 -m pytest -k q02
+ 1045  python3 -m pytest -k q02
+ 1046  python3 -m pytest -k q02
+ 1047  python3 -m pytest -k q02
+ 1048  python3 -m pytest -k q02
+ 1049  python3 -m pytest -k q03 --unlock
+ 1050  python3 -m pytest -k q03
+ 1051  python3 -m pytest -k q03
+ 1052  python3 -m pytest -k q03
+ 1053  python3 -m pytest -k q03
+ 1054  python3 -m pytest -k q03
+ 1055  python3 -m pytest -k q03
+ 1056  python3 -m pytest -k q03
+ 1057  current_place+=1
+ 1058  python3 -m pytest -k q03
+ 1059  python3 -m pytest -k q03
+ 1060  python3 -m pytest -k q03
+ 1061  python3 -m pytest -k q03
+ 1062  python3 -m pytest -k q03
+ 1063  python3 -m pytest -k q03
+ 1064  python3 -m pytest -k q03
+ 1065  python3 -m pytest -k q03
+ 1066  python3 -m pytest -k q03
+ 1067  python3 -m pytest -k q03
+ 1068  python3 -m pytest -k q03
+ 1069  python3 -m pytest -k q03
+ 1070  python3 -m pytest -k q03
+ 1071  python3 -m pytest -k q03
+ 1072  python3 -m pytest --score
+ 1073  bun install
+ 1074  bun curl -fsSL https://bun.com/install | bash
+ 1075  curl -fsSL https://bun.com/install | bash
+ 1076  bun --version
+ 1077  bun install
+ 1078  bun vitest run
+ 1079  node --version
+ 1080  node --version
+ 1081  cd ~/Desktop/codify-61d/Assignment-Starter-Git
+ 1082  node ./node_modules/vitest/vitest.mjs run
+ 1083  cd ~/Desktop/codify-61d/bash-assignment
+ 1084  git log
+ 1085  git checkout main
+ 1086  history 1 | tail -n 300 >> history.txt
+ 1087  grep -E 'git log|git checkout' history.txt
+ 1088  git add history.txt
+ 1089  git commit -m "Update Git command history"
+ 1090  git push origin main
+ 1091  cd ~/Desktop/codify-61d/Assignment-Starter-Git
+ 1092  node ./node_modules/vitest/vitest.mjs run
+ 1093  cd ~/Desktop/codify-61d/bash-assignment
+ 1094  grep -nE 'git log|git checkout' history.txt
+ 1095  git --no-pager log -1
+ 1096  git checkout main
